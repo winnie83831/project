@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+	<script src="js/jquery.js"></script>
+
+	<script src="js/popular.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<title>提拉米蘇</title>
+	<meta charset="utf-8" />
+
+</head>
+
+<body>
+
+	<header class="header section">
+		<div class="container">
+			<a class="header__title" href="index.html">
+				<img src="images/logo.png" alt="提拉米蘇" class="fit-picture">
+			</a>
+		</div><!-- /container -->
+		<div class="container--fluid">
+			<nav class="nav">
+				<span class="nav__menu">&#9776</span>
+				<!--漢堡選單-->
+				<ul class="nav__list">
+					<li class="nav__item"><a class="nav__link" href="#">公司簡介</a></li>
+					<li class="nav__item"><a class="nav__link" href="#">最新消息</a>
+						<ul class="nav-sublist sub-right">
+							<li class="nav__item sub-item"><a href="#" class="nav__link">優惠訊息</a></li>
+							<li class="nav__item sub-item"><a href="#" class="nav__link">公告</a></li>
+						</ul>
+					</li>
+					<li class="nav__item"><a class="nav__link" href="#">產品介紹</a>
+						<ul class="nav-sublist sub-right">
+							<li class="nav__item sub-item"><a href="product.html" class="nav__link">提拉米蘇</a></li>
+							<li class="nav__item sub-item"><a href="cake.html" class="nav__link">各式蛋糕</a></li>
+							<li class="nav__item sub-item"><a href="tower.html" class="nav__link">生乳酪塔</a></li>
+							<li class="nav__item sub-item"><a href="cheese.html" class="nav__link">乳酪蛋糕</a></li>
+							<li class="nav__item sub-item"><a href="nougat.html" class="nav__link">夏威夷堅果及法式軋糖</a></li>
+							<li class="nav__item sub-item"><a href="#" class="nav__link">彌月蛋糕資訊</a></li>
+							<li class="nav__item sub-item"><a href="#" class="nav__link">門市限定販售</a></li>
+							<li class="nav__item sub-item"><a href="#" class="nav__link">門市切片價格</a></li>
+						</ul>
+					</li>
+					<li class="nav__item"><a class="nav__link" href="#">門市據點</a>
+						<ul class="nav-sublist sub-right">
+							<li class="nav__item sub-item"><a href="chengde.html" class="nav__link">承德店</a></li>
+							<li class="nav__item sub-item"><a href="fuxing.html" class="nav__link">復興店</a></li>
+							<li class="nav__item sub-item"><a href="banqiao.html" class="nav__link">板橋店</a></li>
+							<li class="nav__item sub-item"><a href="taoyuan.html" class="nav__link">桃園店</a></li>
+							<li class="nav__item sub-item"><a href="taichung.html" class="nav__link">台中店</a></li>
+							<li class="nav__item sub-item"><a href="changhua.html" class="nav__link">彰化店</a></li>
+							<li class="nav__item sub-item"><a href="tainan.html" class="nav__link">台南店</a></li>
+							<li class="nav__item sub-item"><a href="kaohsiung.html" class="nav__link">高雄店</a></li>
+							<li class="nav__item sub-item"><a href="hualien.html" class="nav__link">花蓮店</a></li>
+						</ul>
+					</li>
+					<li class="nav__item"><a class="nav__link" href="#">常見問題</a>
+						<ul class="nav-sublist sub-right">
+							<li class="nav__item sub-item"><a href="#" class="nav__link">購物流程</a></li>
+							<li class="nav__item sub-item"><a href="#" class="nav__link">購買與運送方式</a></li>
+						</ul>
+					</li>
+					<li class="nav__item"><a class="nav__link" href="#">檔案下載</a>
+						<ul class="nav-sublist sub-right">
+							<li class="nav__item sub-item"><a href="#" class="nav__link">DM下載</a></li>
+							<li class="nav__item sub-item"><a href="#" class="nav__link">訂購單下載</a></li>
+						</ul>
+					</li>
+					<li class="nav__item"><a class="nav__link" href="#">會員專區</a>
+						<ul class="nav-sublist sub-right">
+							<li class="nav__item sub-item"><a href="#" class="nav__link">登入/註冊</a></li>
+							<li class="nav__item sub-item"><a href="#" class="nav__link">訂單查詢</a></li>
+							<li class="nav__item sub-item"><a href="#" class="nav__link">會員資料</a></li>
+						</ul>
+					</li>
+					<li class="nav__item"><a class="nav__link" href="#">聯絡我們</a></li>
+				</ul>
+			</nav>
+		</div> <!-- container--fluid -->
+	</header>
+	<div class="container  mt-3" id="div-show">
+		<img id="show" src="images/banner_1.jpg">
+		<div id="div-select"></div>
+		<div id="btnPrev"></div>
+		<div id="btnNext"></div>
+	</div>
+
+	<div class="container my-3">
+		<div class="row ">
+			<div class="col-lg-4" id="info">
+				<ul class="pt-3">
+
+					<li>品質控管、食得安心</li>
+					<li>親民價格、不變滋味</li>
+					<li>用心製作、精緻饗宴</li>
+				</ul>
+			</div>
+			<div class="col-lg">
+				<h4 class="mt-3">提拉米蘇 Tiramisù</h4>
+				<p>
+					傳說中"提拉米蘇"的由來;在一個征戰的年代，一個煙硝瀰漫的異鄉國度，妻子為了即將遠行的丈夫，將家裡僅剩的乳製品做成一份充滿愛心的甜點❤❤❤
+					提拉米蘇意意味著「帶我走」，雖然無法將我帶走，也將我虔誠的心意帶走。
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="container my-3">
+		<div class="col-lg ps">
+			<h5 class="mt-3">人氣蛋糕</h5>
+			<h4 class="mt-3">Popular Cake</h4>
+			<p>
+				精選人氣蛋糕系列，各式蛋糕禮盒，無論是情人節、父親節、母親節、中秋節、生日蛋糕等，我們都能提供您更多節慶送禮選擇上的靈感與組合。
+			</p>
+		</div>
+	</div>
+	<div class="container" id="div-p">
+		<div id="div_cont"> </div>
+		<div id="btnPrev1"></div>
+		<div id="btnNext1"></div>
+	</div>
+	<div class="container my-3">
+		<div class="col-lg ps">
+			<h5 class="mt-3">最新消息</h5>
+			<h4 class="mt-3">Hot News</h4>
+			<p>
+				最新蛋糕優惠、部落客推薦、網紅分享、媒體報導即時掌握第一手資訊讓您優惠不錯過！
+			</p>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="card mb-3 pos" style="max-width: 550px;">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<img src="images/貨物.jpg" alt="...">
+					</div>
+					<div class="col-md-8">
+						<div class="card-body">
+							<p class="card-text">宅配通知5/9-7/3因疫情關係貨物量暴增無法指定到貨日及時段</p>
+							<p class="card-text"><small class="text-muted">2022-04-14</small></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card mb-3 pos" style="max-width: 550px;">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<img src="images/禁內用.jpg" alt="...">
+					</div>
+					<div class="col-md-8">
+						<div class="card-body">
+							<p class="card-text">因疫情關係暫停開放內用</p>
+							<p class="card-text"><small class="text-muted">2022-04-14</small></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row  justify-content-center">
+			<div class="card mb-3 pos" style="max-width: 550px;">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<img src="images/不指定.jpg" alt="...">
+					</div>
+					<div class="col-md-8">
+						<div class="card-body">
+							<p class="card-text">宅配公告5/9-6/5不指定到貨日及到達時段</p>
+							<p class="card-text"><small class="text-muted">2022-04-14</small></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card mb-3 pos" style="max-width: 550px;">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<img src="images/3.jpg" alt="...">
+					</div>
+					<div class="col-md-8">
+						<div class="card-body">
+							<p class="card-text">防詐騙公告</p>
+							<p class="card-text"><small class="text-muted">2022-04-14</small></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="fot">
+			提拉米蘇精緻蛋糕　tel. +88638526722 fax. +886 38532827<br>
+			Copyright(c)2019提拉米蘇精緻蛋糕.All Right Reserved.
+		</div>
+	</footer>
+</body>
+
+</html>
